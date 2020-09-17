@@ -20,10 +20,10 @@ package grpc
 
 import (
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/balancer"
-	"github.com/Hyperledger-TWGC/grpc-gm/connectivity"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/resolver"
+	"github.com/suchongming/grpc-gm/balancer"
+	"github.com/suchongming/grpc-gm/connectivity"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/resolver"
 )
 
 // PickFirstBalancerName is the name of the pick_first balancer.

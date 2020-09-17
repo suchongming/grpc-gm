@@ -31,20 +31,20 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"github.com/Hyperledger-TWGC/grpc-gm/balancer"
-	_ "github.com/Hyperledger-TWGC/grpc-gm/balancer/roundrobin" // To register roundrobin.
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/connectivity"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/backoff"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc-gm/keepalive"
-	"github.com/Hyperledger-TWGC/grpc-gm/resolver"
-	_ "github.com/Hyperledger-TWGC/grpc-gm/resolver/dns"         // To register dns resolver.
-	_ "github.com/Hyperledger-TWGC/grpc-gm/resolver/passthrough" // To register passthrough resolver.
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/balancer"
+	_ "github.com/suchongming/grpc-gm/balancer/roundrobin" // To register roundrobin.
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/connectivity"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/internal/backoff"
+	"github.com/suchongming/grpc-gm/internal/channelz"
+	"github.com/suchongming/grpc-gm/internal/transport"
+	"github.com/suchongming/grpc-gm/keepalive"
+	"github.com/suchongming/grpc-gm/resolver"
+	_ "github.com/suchongming/grpc-gm/resolver/dns"         // To register dns resolver.
+	_ "github.com/suchongming/grpc-gm/resolver/passthrough" // To register passthrough resolver.
+	"github.com/suchongming/grpc-gm/status"
 )
 
 const (

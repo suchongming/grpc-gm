@@ -22,9 +22,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/Hyperledger-TWGC/grpc-gm/connectivity"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/connectivity"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/grpclog"
 )
 
 // entry represents a node in the channelz database.

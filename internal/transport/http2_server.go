@@ -35,17 +35,17 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/grpcrand"
-	"github.com/Hyperledger-TWGC/grpc-gm/keepalive"
-	"github.com/Hyperledger-TWGC/grpc-gm/metadata"
-	"github.com/Hyperledger-TWGC/grpc-gm/peer"
-	"github.com/Hyperledger-TWGC/grpc-gm/stats"
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
-	"github.com/Hyperledger-TWGC/grpc-gm/tap"
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/internal/channelz"
+	"github.com/suchongming/grpc-gm/internal/grpcrand"
+	"github.com/suchongming/grpc-gm/keepalive"
+	"github.com/suchongming/grpc-gm/metadata"
+	"github.com/suchongming/grpc-gm/peer"
+	"github.com/suchongming/grpc-gm/stats"
+	"github.com/suchongming/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/tap"
 )
 
 var (

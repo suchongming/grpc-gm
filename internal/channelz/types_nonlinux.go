@@ -20,7 +20,7 @@
 
 package channelz
 
-import "github.com/Hyperledger-TWGC/grpc-gm/grpclog"
+import "github.com/suchongming/grpc-gm/grpclog"
 
 func init() {
 	grpclog.Infof("Channelz: socket options are not supported on non-linux os and appengine.")

@@ -1,4 +1,4 @@
-module github.com/Hyperledger-TWGC/grpc-gm
+module github.com/suchongming/grpc-gm
 
 go 1.14
 

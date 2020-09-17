@@ -20,7 +20,7 @@
 // name without scheme back to gRPC as resolved address.
 package passthrough
 
-import "github.com/Hyperledger-TWGC/grpc-gm/resolver"
+import "github.com/suchongming/grpc-gm/resolver"
 
 const scheme = "passthrough"
 

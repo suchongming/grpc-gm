@@ -28,16 +28,16 @@ import (
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/trace"
-	"github.com/Hyperledger-TWGC/grpc-gm/balancer"
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/encoding"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/channelz"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/grpcrand"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc-gm/metadata"
-	"github.com/Hyperledger-TWGC/grpc-gm/stats"
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/balancer"
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/encoding"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/internal/channelz"
+	"github.com/suchongming/grpc-gm/internal/grpcrand"
+	"github.com/suchongming/grpc-gm/internal/transport"
+	"github.com/suchongming/grpc-gm/metadata"
+	"github.com/suchongming/grpc-gm/stats"
+	"github.com/suchongming/grpc-gm/status"
 )
 
 // StreamHandler defines the handler called by gRPC server to complete the

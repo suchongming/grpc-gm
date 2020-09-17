@@ -23,7 +23,7 @@ package connectivity
 
 import (
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/grpclog"
 )
 
 // State indicates the state of connectivity.

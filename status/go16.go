@@ -22,7 +22,7 @@ package status
 
 import (
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/codes"
 )
 
 // FromContextError converts a context error into a Status.  It returns a

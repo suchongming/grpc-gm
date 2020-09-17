@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/balancer"
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/connectivity"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/resolver"
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/balancer"
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/connectivity"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/resolver"
+	"github.com/suchongming/grpc-gm/status"
 )
 
 type balancerWrapperBuilder struct {

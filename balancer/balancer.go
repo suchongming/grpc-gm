@@ -26,9 +26,9 @@ import (
 	"strings"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/connectivity"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/resolver"
+	"github.com/suchongming/grpc-gm/connectivity"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/resolver"
 )
 
 var (

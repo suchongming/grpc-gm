@@ -21,7 +21,7 @@
 // Package stats is for collecting and reporting various network and RPC stats.
 // This package is for monitoring purpose only. All fields are read-only.
 // All APIs are experimental.
-package stats // import "github.com/Hyperledger-TWGC/grpc-gm/stats"
+package stats // import "github.com/suchongming/grpc-gm/stats"
 
 import (
 	"net"

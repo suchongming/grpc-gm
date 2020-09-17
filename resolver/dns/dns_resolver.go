@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/grpclog"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/backoff"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/grpcrand"
-	"github.com/Hyperledger-TWGC/grpc-gm/resolver"
+	"github.com/suchongming/grpc-gm/grpclog"
+	"github.com/suchongming/grpc-gm/internal/backoff"
+	"github.com/suchongming/grpc-gm/internal/grpcrand"
+	"github.com/suchongming/grpc-gm/resolver"
 )
 
 func init() {

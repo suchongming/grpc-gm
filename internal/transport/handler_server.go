@@ -36,12 +36,12 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/metadata"
-	"github.com/Hyperledger-TWGC/grpc-gm/peer"
-	"github.com/Hyperledger-TWGC/grpc-gm/stats"
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/metadata"
+	"github.com/suchongming/grpc-gm/peer"
+	"github.com/suchongming/grpc-gm/stats"
+	"github.com/suchongming/grpc-gm/status"
 )
 
 // NewServerHandlerTransport returns a ServerTransport handling gRPC

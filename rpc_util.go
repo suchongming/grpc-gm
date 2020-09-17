@@ -32,15 +32,15 @@ import (
 	"time"
 
 	"golang.org/x/net/context"
-	"github.com/Hyperledger-TWGC/grpc-gm/codes"
-	"github.com/Hyperledger-TWGC/grpc-gm/credentials"
-	"github.com/Hyperledger-TWGC/grpc-gm/encoding"
-	"github.com/Hyperledger-TWGC/grpc-gm/encoding/proto"
-	"github.com/Hyperledger-TWGC/grpc-gm/internal/transport"
-	"github.com/Hyperledger-TWGC/grpc-gm/metadata"
-	"github.com/Hyperledger-TWGC/grpc-gm/peer"
-	"github.com/Hyperledger-TWGC/grpc-gm/stats"
-	"github.com/Hyperledger-TWGC/grpc-gm/status"
+	"github.com/suchongming/grpc-gm/codes"
+	"github.com/suchongming/grpc-gm/credentials"
+	"github.com/suchongming/grpc-gm/encoding"
+	"github.com/suchongming/grpc-gm/encoding/proto"
+	"github.com/suchongming/grpc-gm/internal/transport"
+	"github.com/suchongming/grpc-gm/metadata"
+	"github.com/suchongming/grpc-gm/peer"
+	"github.com/suchongming/grpc-gm/stats"
+	"github.com/suchongming/grpc-gm/status"
 )
 
 // Compressor defines the interface gRPC uses to compress a message.
